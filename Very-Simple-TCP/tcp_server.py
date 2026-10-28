@@ -16,7 +16,7 @@ __SOCKET__.listen(10)
 while True:
     # Program opens port on localhost and waits for client to connect 
     d, a = __SOCKET__.accept()
-    d.send(b"TY!")
+    d.send(b"Live. ")
     
     print('C:\>   ', a)
     d.close()
