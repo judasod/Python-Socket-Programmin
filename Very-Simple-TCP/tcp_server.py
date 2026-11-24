@@ -19,5 +19,5 @@ while True:
     d, a = __SOCKET__.accept()
     d.send(b"Live. ")
     
-    print('/> ', a)
-    d.close()
+    print('\> ', a)
+    d.close()  # EOL
