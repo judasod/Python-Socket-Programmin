@@ -1,3 +1,4 @@
+import os
 import socket as sck
 
 
@@ -21,3 +22,6 @@ while True:
     
     print('\> ', a)
     d.close()  # EOL
+    # _DEBUG = True
+    # _DEBUG_LVL = 0
+    # cmd = 'echo $?'; os.system(cmd)
