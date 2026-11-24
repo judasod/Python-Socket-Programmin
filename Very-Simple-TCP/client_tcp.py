@@ -2,7 +2,7 @@ import socket as sck
 
 
 _PORT = 8000
-LOCALHOST = "127.0.0.1" # LAN IPv4 Address 
+LOCALHOST = "127.0.0.1" # LAN IPv4 addr 
 CREDENTIALS = tuple((LOCALHOST, _PORT))
  
 SOCKET = sck.socket(sck.AF_INET, sck.SOCK_STREAM)
